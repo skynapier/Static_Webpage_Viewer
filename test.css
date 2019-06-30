@@ -69,8 +69,8 @@ body{
 }
 
 #wrap .logInfo{
-    height: 10%;
-	width: 15%;  
+    height: 9vw;
+	width: 15vw;  
     position: relative;
     background-color: transparent;
     text-align: center;
@@ -80,26 +80,21 @@ body{
 
 
 .logInfo #logName{
-    height: 3.5rem;
-    border-radius: 0.3rem 0.3rem 0rem 0rem;
-    
+    border-radius: 0.3rem 0.3rem 0rem 0rem;    
 }
 
 .logInfo #logEmail{
-    height: 3.5rem;
     border-top:0.05rem  solid #F0F0F0;
     border-radius: 0rem 0rem 0rem 0rem;
     border-bottom:0.05rem  solid #F0F0F0;
 }
 
 .logInfo #logPassword{
-    height: 3.5rem;
-    border-radius: 0rem 0rem 0.3rem 0.3rem;
-    
+   border-radius: 0rem 0rem 0.3rem 0.3rem;
 }
 
 .logInfo input{
-    height: 2vh;
+    height: 2vw;
     width:15vw;
     border: none;
     position: relative;
@@ -143,7 +138,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .logInfo button{
    
     height: 3vh;
-    width: 100%;
+    width: 15vw;
     background-color: #5D7599;
     border-radius: 0.2rem;
 	border: none;
