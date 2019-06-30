@@ -10,8 +10,6 @@ document.querySelector('#wrap .logInfo .logStart button ').onclick = () => {
 		name = "default name";
 	}
 
-	
-	
 	if (email == ""){
 		email = "default email";
 	}
