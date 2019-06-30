@@ -129,7 +129,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .logInfo .logStart{
-   margin: 1vh auto auto auto;
+   margin: 0.5vw auto auto auto;
 }
 
 .logInfo button{
@@ -147,7 +147,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .note{
     
-    height: 6vh;
+    height: 3vw;
     width: 15vw;
 
     font-family: opensans-regular-webfont;
@@ -155,7 +155,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-size: 0.7vw;
     text-align: center;
     vertical-align: middle;
-    margin:2vh auto;
+    margin:1vw auto;
 }
 
 @font-face {
