@@ -135,7 +135,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .logInfo button{
    
     height: 1.5vw;
-    width: 15vw;
+    width: 100%;
     background-color: #5D7599;
     border-radius: 0.2rem;
 	border: none;
