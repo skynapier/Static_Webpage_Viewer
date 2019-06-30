@@ -92,7 +92,7 @@ body{
 
 .logInfo input{
     height: 2vw;
-    width:15vw;
+    width: 100%;
     border: none;
     position: relative;
    
