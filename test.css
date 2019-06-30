@@ -83,17 +83,20 @@ body{
 .logInfo #logName{
     height: 3.5rem;
     border-radius: 0.3rem 0.3rem 0rem 0rem;
-    border-bottom:0.05rem  solid #F0F0F0;
+    
 }
 
 .logInfo #logEmail{
     height: 3.5rem;
+    border-top:0.05rem  solid #F0F0F0;
+    border-radius: 0rem 0rem 0rem 0rem;
+    border-bottom:0.05rem  solid #F0F0F0;
 }
 
 .logInfo #logPassword{
     height: 3.5rem;
     border-radius: 0rem 0rem 0.3rem 0.3rem;
-    border-top:0.05rem  solid #F0F0F0;
+    
 }
 
 .logInfo input{
