@@ -1,7 +1,6 @@
 
 html{
     color: #FFFFFF;
-    
     overflow-x:hidden;
     text-align: center;
     vertical-align: middle;
@@ -17,7 +16,7 @@ body{
 
 #head {
     height: 1rem;
-    width: auto;
+    width: 40vw;
 
     text-align: center;
     position: relative;
@@ -27,9 +26,9 @@ body{
 #head a button{
     font-family: 'Open Sans';
     color: #FFFFFF;
-    font-size: 1rem;
-    width: 7rem;
-    margin: 0 1%;
+    font-size: 0.7vw;
+    width: 5vw;
+    margin: 0 1.5vw;
     border: none;
     transform: scaleX(1.1);
     background: transparent;
@@ -45,7 +44,7 @@ body{
     pointer-events: none;
     text-align: center;
     vertical-align: middle;
-    margin:13.1rem auto auto auto;
+    margin:15vh auto auto auto;
    
 }
 
@@ -76,7 +75,7 @@ body{
     background-color: transparent;
     text-align: center;
     vertical-align: middle;
-    margin:7rem auto auto auto;
+    margin:7vh auto auto auto;
 }
 
 
@@ -105,51 +104,51 @@ body{
     border: none;
     position: relative;
     
-    text-indent: 1.5rem;
+    text-indent: 1vw;
 }
 
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5rem;
+    font-size: 1vw;
     font-weight: 400;
 }
   
 input:-moz-placeholder, textarea:-moz-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5rem;
+    font-size: 1vw;
     font-weight: 400;
 }
   
 input::-moz-placeholder, textarea::-moz-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5rem;
+    font-size: 1vw;
     font-weight: 400;
 }
   
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5rem;
+    font-size: 1vw;
     font-weight: 400;
 }
 
 .logInfo .logStart{
-   margin: 2rem auto auto auto;
+   margin: 2vh auto auto auto;
 }
 
 .logInfo button{
    
-    height: 2.0rem;
+    height: 3vh;
     width: 100%;
     background-color: #5D7599;
     border-radius: 0.2rem;
 	border: none;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1vw;
 
 }
 
@@ -162,10 +161,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-family: opensans-regular-webfont;
 	color: #FFFFFF;
     
-    font-size: 1.1rem;
+    font-size: 0.7vw;
     text-align: center;
     vertical-align: middle;
-    margin:2rem auto auto auto;
+    margin:2vh auto auto auto;
 }
 
 @font-face {
