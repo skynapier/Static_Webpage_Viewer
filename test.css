@@ -1,101 +1,107 @@
 
 html{
     color: #FFFFFF;
-    height: auto;
-    width: auto;
-    background-size: auto;
-    overflow-x:hidden;
     
+    overflow-x:hidden;
+    text-align: center;
+    vertical-align: middle;
 }
 
 body{
     background-image: url('./sources/ACG.GY_13.jpg');
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    
     background-size:cover;
- 
+
 }
 
 #head {
-    height: 10%;
+    height: 1rem;
     width: auto;
-    margin-top: 1.5%;
+
     text-align: center;
-	position: relative;
+    position: relative;
+    margin:2rem auto;
 }
 
 #head a button{
     font-family: 'Open Sans';
     color: #FFFFFF;
-    font-size: 1em;
-    width: 7em;
-    margin-left:2em;
+    font-size: 1rem;
+    width: 7rem;
+    margin: 0 1%;
     border: none;
     transform: scaleX(1.1);
     background: transparent;
-   
+    vertical-align: middle;
+    
 }
 
 .logo{
-    height:10%;
-    width:10%;
-    margin-top: 5%;
-    margin-left: 46%;
+    height:20vh;
+    width:20vh;
     position: relative;
     animation: App-logo-spin infinite 20s linear;
     pointer-events: none;
+    text-align: center;
+    vertical-align: middle;
+    margin:13.1rem auto auto auto;
+   
 }
 
 .logo img{
-    height:auto;
-    width:auto;
+    height:100%;
+    width:100%;
 }
 
 .title {
-    height: 1em;
+    height: 1rem;
     width:auto;
 	font-family: 'Open Sans';
 	position: relative;
-    margin-top: 1.5%;
-    text-align: center;
+
 	transform: scale(1.3,1.2);  
-	font-size: 2.4em;
+	font-size: 1.7vw;
     font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    margin:2rem auto auto auto;
   
 }
 
 #wrap .logInfo{
     height: 10%;
-	width: 15.5%;  
+	width: 15%;  
     position: relative;
-    margin-top:2.3%;
-    margin-left:43.5%;
     background-color: transparent;
-    
+    text-align: center;
+    vertical-align: middle;
+    margin:7rem auto auto auto;
 }
 
 
 .logInfo #logName{
-    height: 3.5em;
-    border-radius: 0.3em 0.3em 0em 0em;
-    border-bottom:1px  solid #F0F0F0;
+    height: 3.5rem;
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+    border-bottom:0.05rem  solid #F0F0F0;
 }
 
 .logInfo #logEmail{
-    height: 3.5em;
+    height: 3.5rem;
 }
 
 .logInfo #logPassword{
-    height: 3.5em;
-    border-radius: 0em 0em 0.3em 0.3em;
-    border-top:0.1px  solid #F0F0F0;
+    height: 3.5rem;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+    border-top:0.05rem  solid #F0F0F0;
 }
 
 .logInfo input{
-    height: auto;
-    width: 100%;
+    height: 2vh;
+    width:15vw;
     border: none;
     position: relative;
-    margin-right: auto;
+    
     text-indent: 1.5rem;
 }
 
@@ -103,46 +109,45 @@ body{
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
 }
   
 input:-moz-placeholder, textarea:-moz-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
 }
   
 input::-moz-placeholder, textarea::-moz-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
 }
   
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: #AAAAAA;
     font-family: 'Open Sans';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .logInfo .logStart{
-    margin-top: 1.6em;
-	margin-right: auto;
-    margin-left: auto;
+   margin: 2rem auto auto auto;
 }
 
 .logInfo button{
    
-    height: 2.0em;
+    height: 2.0rem;
     width: 100%;
     background-color: #5D7599;
-    border-radius: 0.2em;
+    border-radius: 0.2rem;
 	border: none;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4rem;
+
 }
 
 
@@ -150,13 +155,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     display: inline-block;
     height: 10%;
     width: auto;
-    margin-top: 1.5%;
-    margin-left:47%;
+
     font-family: opensans-regular-webfont;
 	color: #FFFFFF;
-    position: relative;
-    text-align:center;
-    font-size: 1.1em;
+    
+    font-size: 1.1rem;
+    text-align: center;
+    vertical-align: middle;
+    margin:2rem auto auto auto;
 }
 
 @font-face {
