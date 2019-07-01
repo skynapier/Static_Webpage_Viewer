@@ -1,0 +1,19 @@
+html{
+    color: #FFFFFF;
+    overflow-x:hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body{
+    background-image: url('./sources/ACG.GY_13.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.paragraph1 p{
+    text-align: center;
+    vertical-align: middle;
+    margin: 2vh 22vw;
+}

@@ -9,7 +9,6 @@ html{
 body{
     background-image: url('./sources/ACG.GY_13.jpg');
     background-repeat:no-repeat;
-    
     background-size:cover;
 
 }
@@ -32,7 +31,6 @@ body{
     transform: scaleX(1.1);
     background: transparent;
     vertical-align: middle;
-    
 }
 
 .logo{
@@ -154,6 +152,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     vertical-align: middle;
     margin:1vw auto;
 }
+
 
 @font-face {
     font-family: 'Open Sans';
