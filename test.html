@@ -1,9 +1,29 @@
 <!doctype html>
 <html>
 <head>
+
+<script >
+    function check() { 
+        var userAgentInfo=navigator.userAgent; 
+        var Agents =new Array("Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"); 
+        var isMobile= false; 
+        for(var v=0;v<Agents.length;v++) { 
+        if(userAgentInfo.indexOf(Agents[v])>0) { 
+            flag=true; 
+            break; 
+        } 
+        } 
+        return isMobile; 
+    }
+    
+    if(check()){
+        window.location.href="https://skynapier.github.io/Static_Webpage_Viewer/CV.html";
+    }
+</script>
+
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0"/>
 <title>login</title>
-<link rel="stylesheet" type="text/css" href="test.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/test.css">
 </head>
  
 <body>
@@ -15,7 +35,7 @@
 </div>
 
 <div class = "logo" >
-    <img src= './sources/logo.png' alt = "should be logo">
+    <img src= './assets/sources/logo.png' alt = "should be logo">
 </div>
 
 <div class="title">Every artist was first an amateur.</div>
@@ -42,6 +62,7 @@
 <div class = "note">
     <b>Log in </b><nobr> to your dashboard</nobr>
 </div>
-<script src="./dist.js"></script>
+<script src="./js/dist.js"></script>
+
 </body>
 </html>
