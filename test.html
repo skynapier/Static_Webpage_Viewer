@@ -3,20 +3,22 @@
 <head>
 
 <script >
+    console.log("check");
     function check() { 
         var userAgentInfo=navigator.userAgent; 
         var Agents =new Array("Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"); 
         var isMobile= false; 
         for(var v=0;v<Agents.length;v++) { 
         if(userAgentInfo.indexOf(Agents[v])>0) { 
-            flag=true; 
+            isMobile = true; 
             break; 
         } 
         } 
         return isMobile; 
     }
-    
-    if(check()){
+    let isMobile = check();
+    console.log(isMobile)
+    if(isMobile){
         window.location.href="https://skynapier.github.io/Static_Webpage_Viewer/CV.html";
     }
 </script>
